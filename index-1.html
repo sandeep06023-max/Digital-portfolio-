@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janaki Raman | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button class="dark-toggle" onclick="toggleDarkMode()">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <h1>Hello, I'm <span>Vigneshwaran</span></span></h1>
+    <p>A student passionate about web development 🚀</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="/storage/emulated/0/Android/data/com.fazil.htmleditor/files/Documents/Digital portfolio /media/images/IMG_20250817_234019.jpg" alt="My Photo">
+      <div class="about-text">
+        <p>I’m a web designer & developer who enjoys building simple and creative websites. I love coding, solving problems, and creating user-friendly designs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div><span style="width: 90%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>CSS</p>
+      <div><span style="width: 85%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>JavaScript</p>
+      <div><span style="width: 75%"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>Python</p>
+      <div><span style="width: 70%"></span></div>
+    </div>
+  </section>
+
+
+
+  <!-- Certificates -->
+  <section id="certificates" class="certificates">
+    <h2>Certificates & Achievements</h2>
+    <ul>
+      <li>🏅 Web Development Bootcamp Certificate</li>
+      <li>🏅 Python Programming Certificate</li>
+      <li>🏅 Hackathon Participation Award</li>
+      <li>🏅 Best Student Project Award</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>ID Card</h3>
+        <p>A digital ID card design using HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Registration Form</h3>
+        <p>A simple form to submit user details.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio</h3>
+        <p>This personal portfolio site showcasing my skills & projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Calculator</h3>
+        <p>A functional calculator built with JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+    <p class="success-message" id="successMessage">✅ Message sent successfully!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vigneshwaran | All Rights Reserved</p>
+    <div class="social-links">
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/KVignesh-Waran" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
